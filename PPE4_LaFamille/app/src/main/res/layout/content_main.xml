@@ -68,4 +68,27 @@
         android:textStyle="bold"
         android:textColor="#ee7b01"
         android:textSize="60px" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valider"
+        android:id="@+id/valid"
+        android:layout_marginBottom="76dp"
+        android:textColor="#ffffff"
+        android:background="#d05300"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/connec"
+        android:layout_alignStart="@+id/connec" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Annuler"
+        android:id="@+id/annul"
+        android:textColor="#ffffff"
+        android:background="#d05300"
+        android:layout_alignTop="@+id/valid"
+        android:layout_alignRight="@+id/connec"
+        android:layout_alignEnd="@+id/connec" />
 </RelativeLayout>
