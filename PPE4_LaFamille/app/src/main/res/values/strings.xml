@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">PPE4_LaFamille</string>
     <string name="action_settings">Settings</string>
+    <string name="visite">Visite de la semaine</string>
+    <string name="ajout">Ajouter une visite</string>
+    <string name="info">Retour des informations</string>
+
+
 </resources>

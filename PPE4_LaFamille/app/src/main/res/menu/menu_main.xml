@@ -2,9 +2,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.sio.ppe4_lafamille.MainActivity">
+
+
+    <item
+        android:id="@+id/visite"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/visite"/>
+    <item
+        android:id="@+id/ajout"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/ajout"/>
+
+    <item
+        android:id="@+id/info"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/info"/>
+
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never" />
+
 </menu>
